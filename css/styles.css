@@ -1,7 +1,310 @@
-p {
-    text-align: center;
-    color:white;
+/* GLOBAL styling */
+
+body{
+  font-family: 'Roboto', sans-serif;
 }
-.container {
-    margin: 30px;
+
+.text-white{
+  color: #FFFFFF;
+
+}
+
+.heading{
+  font-weight: bold;
+}
+
+.thumbnail{
+  border-style: none;
+}
+
+.card{
+  border-style: none;
+  border-radius: 0px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.form-control{
+  background: rgba(255, 255, 255, 0);
+  border-radius: 0;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.form-control::placeholder{
+  color: #FFFFFF;
+}
+
+.text-shadow{
+  text-shadow: 1px 2px #000000;
+}
+
+
+.jumbotron{
+  border-radius: 0;
+  margin-right: 0;
+}
+
+.alert{
+  text-align: center;
+  margin-bottom: auto;
+  display: none;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index:9999;
+  border-radius:0px;
+}
+
+.fix{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 80%%;
+}
+/* end of GLOBAL styling */
+
+
+/* first jumbotron styling */
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large-jumbotron{
+  background-image: url("../images/backgrounds/h_img.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-right: 0;
+}
+
+.large-jumbotron-text{
+  margin-top: 178px;
+}
+
+h1.text-white{
+  color: #FFFFFF;
+}
+
+.text-align-bg-jt{
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 40px;
+  font-size: 44px;
+}
+
+.text-align-sm-jt{
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.text-lift{
+  margin-top: 15px;
+}
+
+#mouse{
+  margin-top: 330px;
+}
+/* end of first jumbotron styling */
+
+
+/* about us styling*/
+.text-align-normal{
+  text-align: center;
+}
+
+.paragraphs{
+  font-size: 18px;
+}
+
+.about{
+  margin-top: 60px;
+}
+/* end of about us styling */
+
+
+/* services styling */
+.small-jumbotron{
+  background-image: url("../images/backgrounds/s_image.jpg");
+  height: 488px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.small-jumbotron-text{
+  margin-top: 100px;
+}
+/* end of services styling */
+
+
+/* what we do styling */
+.thumb-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#design-hide{
+  display: none;
+  cursor: pointer;
+}
+
+#design-show{
+  cursor: pointer;
+}
+
+#development-hide{
+  display: none;
+  cursor: pointer;
+}
+
+#development-show{
+  cursor: pointer;
+}
+
+#product-hide{
+  display: none;
+  cursor: pointer;
+}
+
+#product-show{
+  cursor: pointer;
+}
+/* end of what we do styling */
+
+
+/* portfolio styling */
+#work1-hide{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #362721;
+}
+
+#work2-hide{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #362721;
+}
+
+#work3-hide{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #362721;
+}
+
+#work4-hide{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #362721;
+}
+
+#work5-hide{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #362721;
+}
+
+#work6-hide{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #362721;
+}
+
+#work7-hide{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #362721;
+}
+
+#work8-hide{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #362721;
+}
+
+.card-title .card-text{
+  font-weight: 400;
+}
+
+.card-margin{
+  padding: 1em;
+  border: solid #FFFFFF 2px;
+  align-items: center;
+}
+/* end of portfolio styling */
+
+
+/* contact us styling */
+.contact-jumbotron{
+  background-image: url("../images/backgrounds/c_image.jpg");
+  height: 683px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name-mail{
+  display: flex;
+}
+
+.contact-us{
+  margin-top: auto;
+  margin-bottom: 80px;
+}
+
+.contact{
+  margin-top: 20px;
+}
+
+#name{
+  margin-right: 40px
+}
+
+#button-hide{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#hidden{
+  display: none;
+}
+/* end of contact us styling */
+
+
+/* footer styling */
+.footer{
+  height: auto;
+}
+
+.social_icons{
+  display: flex;
+  justify-content: center;
+  position: static;
+}
+
+.social_icon{
+  margin-right: 18px;
+}
+
+.footer-text{
+  margin-top: 20px;
+}
+
+#sth{
+  cursor: pointer;
 }
