@@ -1,282 +1,145 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Delani Studio</title>
-    <link rel="stylesheet" href="css/styles.css">
-   
-    <script src="js/scripts.js"></script>
-    <link rel="icon" href="images/logo/logo.png" type="img/jpg">
-  </head>
-  <body>
-    <!-- ALERT -->
-    <div class="alert alert-primary alert-dismissible fade show" role="alert">
-      Thank you <span id="user"></span>! Your message has been received.
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close" id="close-alert">
-        <span aria-hidden="true">&times;</span>
-      </button>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../images/Delaninew.ico" />
+  <title>Delani Studio</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  
+  <div class="landing">
+    <img src="images/logo.png" alt="logo" id="logo">
+    <h1>WELCOME</h1> 
+    <h1> TO DELANI STUDIO</h1>
+    <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+    <div class="mouse-click"></div>
+    <a href="#about-us"><img src="images/mouseclick.png" alt=" mouse_click" id="mouse-click"></a> 
+  </div>
+  <div class="container about" id="about-us">
+    <h2 id="about">ABOUT US</h2>
+    <p>When you work with us, you are part of a team of commited collaborators. All aspects of our software development process are intergrated , interactive and agile.</p>
+    <p>Our approach unifies design, development and product managent to create exceptional products.</p> 
+    <p>We start each project by understanding your business goals, the users needs and the product requirements.</p>
+    <p>we help translate them into active and elegant solutions.</p>
+  </div>
+  <div class="services">
+    <div id="servicesoverlay">
+      <h2>SERVICES</h2>
+      <p>Before we sign a contract or write a line of code, our team will spend the neccessary time needed to understand your product vission.</p>
+      <p>The outcome of the scoping session a proposal or high-level statement of work.</p>
+      <p>based on your requirements, we can provide a complete offering or just the piece you need. </p>
     </div>
-    <!-- END OF ALERT -->
-
-    <!-- WELCOME -->
-    <div class="jumbotron large-jumbotron">
-      <div class="large-jumbotron-text">
-        <img src="images/logo/logo.png" alt="logo" class="center animated rubberBand">
-        <h2 class="text-align-bg-jt text-white animated rubberBand">WELCOME</h2>
-        <h2 class="text-align-bg-jt text-white animated rubberBand">TO DELANI STUDIO</h2>
-        <h4 class="text-align-sm-jt text-lift animated rubberBand">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h4>
-        <img src="images/mouse_click.png" alt="mouse click" class="center" id="mouse">
-      </div>
-    </div>
-
-    <!-- END OF WELCOME -->
-
-    <!-- ABOUT US -->
-    <div class="container about wow bounceInUp">
-      <h2 class="text-align-normal heading">ABOUT US</h2>
-      <p class="text-align-normal paragraphs">When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are intergreted, interactive and agile.</p>
-      <p class="text-align-normal paragraphs">Our approach unifies design, development and project management to create exceptional products.</p>
-      <p class="text-align-normal paragraphs">We start each project by understanding your business goals, the user's needs and the product requirements.</p>
-      <p class="text-align-normal paragraphs">Then we help translate them into effective elegant solutions.</p>
-    </div>
-    <br><br><br>
-    <!-- END OF ABOUT US -->
-
-    <!-- SERVICES -->
-    <div class="jumbotron small-jumbotron">
-      <div class="small-jumbotron-text wow bounceInUp">
-        <h2 class="text-align-normal text-white heading">SERVICES</h2>
-        <p class="text-align-normal paragraphs text-white">Before we sign a contract or write a line of code, our team will spend the necessary time needed to understand your product vision.</p>
-        <p class="text-align-normal paragraphs text-white">The outcome of this scoping is a proposal or high-level statement of work.</p>
-        <p class="text-align-normal paragraphs text-white">Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
-      </div>
-    </div>
-
-    <!-- END OF SERVICES -->
-
-    <!-- WHAT WE DO -->
-
-    <h2 class="text-align-normal heading">WHAT WE DO</h2>
-    <br>
-    <div class="container-fluid">
-      <div class="row wow bounceInLeft">
-        <div class="col-md-4 col-sm-12">
-          <div class="card">
-            <div id="design-show">
-              <img src="images/services_icons/design_icon.png" alt="work1" class="thumb-pic">
-              <br>
-              <h5 class="text-align-normal">DESIGN</h5>
-            </div>
-            <div id="design-hide">
-              <h5 class="text-align-normal">DESIGN</h5>
-              <div class="container">
-                <p class="text-align-normal">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
-                <p class="text-align-normal">Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-              </div>
-            </div>
-          </div>
+  </div> 
+  <div class="container what-we-do">
+    <h2 class="headings">WHAT WE DO</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div id="design">
+          <h2 class="title">DESIGN</h2>
+          <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+            <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
         </div>
-
-        <div class="col-md-4 col-sm-12">
-          <div class="card">
-            <div id="development-show">
-              <img src="images/services_icons/dev_icon.png" alt="work1" class="thumb-pic">
-              <br>
-              <h5 class="text-align-normal">DEVELOPMENT</h5>
-            </div>
-            <div id="development-hide">
-              <h5 class="text-align-normal">DEVELOPMENT</h5>
-              <div class="container">
-                <p class="text-align-normal">All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-                <p class="text-align-normal">They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-              </div>
-            </div>
-          </div>
+        <div id="design-image">
+          <img src="images/design_icon.png" alt="design">
+          <p>DESIGN</p>
         </div>
-
-        <div class="col-md-4 col-sm-12">
-          <div class="card">
-            <div id="product-show">
-              <img src="images/services_icons/product_icon.png" alt="work1" class="thumb-pic">
-              <br>
-              <h5 class="text-align-normal">PRODUCT MANAGEMENT</h5>
-            </div>
-            <div id="product-hide">
-              <h5 class="text-align-normal">PRODUCT MANAGEMENT</h5>
-              <div class="container">
-                <p class="text-align-normal" style="color:black">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. </p>
-                <p class="text-align-normal">This iterative process allows for changes as business requirements evolve.</p>
-              </div>
-            </div>
-          </div>
+      </div>
+      <div class="col-md-4">
+        <div id="development">
+          <h2 class="title">DEVELOPMENT</h2>
+          <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+             <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+        </div>
+        <div id="development-image">
+          <img src="images/dev_icon.png" alt="development">
+          <P>DEVELOPMENT</P>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="product">
+          <h2 class="title">PRODUCT MANAGEMENT</h2>
+          <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+          <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+        </div>
+        <div id="product-image">
+          <img src="images/services_icons/product_icon.png" alt="products">
+          <P>PRODUCT MANAGEMENT</P>
         </div>
       </div>
     </div>
-
-    <br><br>
-    <!-- END OF WHAT WE DO -->
-
-    <!-- PORTFOLIO -->
-    <div class="container">
-      <h2 class="text-align-normal heading">PORTFOLIO</h2>
-      <br>
-      <div class="row wow bounceInRight">
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card bg-dark text-white zoom" id="work1-show">
-            <img src="images/portfolio/work1.jpg" class="card-img" alt="work1" >
-            <div class="card-img-overlay" id="work1-hide">
-              <div class="card-margin">
-                <h5 class="card-title text-white">MYZONE MOVIES</h5>
-                <p class="card-text text-white">A video sharing and streaming as well as user movie review web application.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card bg-dark text-white zoom" id="work2-show">
-            <img src="images/portfolio/work2.jpg" class="card-img" alt="work1">
-            <div class="card-img-overlay" id="work2-hide">
-              <div class="card-margin">
-                <h5 class="card-title text-white">ARTS BY CORAL</h5>
-                <p class="card-text text-white">Web application designed for famous artist Carl Coral.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card bg-dark text-white zoom" id="work3-show">
-            <img src="images/portfolio/work3.jpg" class="card-img" alt="work1">
-            <div class="card-img-overlay" id="work3-hide">
-              <div class="card-margin">
-                <h5 class="card-title text-white">THE ONTARIO RAIDERS</h5>
-                <p class="card-text text-white">A web application designed for the Ontario Raiders football team.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card bg-dark text-white zoom" id="work4-show">
-            <img src="images/portfolio/work4.jpg" class="card-img" alt="work1">
-            <div class="card-img-overlay" id="work4-hide">
-              <div class="card-margin">
-                <h5 class="card-title text-white">NOTHINGNESS INC.</h5>
-                <p class="card-text text-white">Designed the famous web app of nothingness for Emil Smithers ltd.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card bg-dark text-white zoom" id="work5-show">
-            <img src="images/portfolio/work5.jpg" class="card-img" alt="work5">
-            <div class="card-img-overlay" id="work5-hide">
-              <div class="card-margin">
-                <h5 class="card-title text-white">CLARA'S BLOG</h5>
-                <p class="card-text text-white">Blog web application for famous chef and entrepreneur Clara Mackin.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card bg-dark text-white zoom" id="work6-show">
-            <img src="images/portfolio/work6.jpg" class="card-img" alt="work1">
-            <div class="card-img-overlay" id="work6-hide">
-              <div class="card-margin">
-                <h5 class="card-title text-white">IO DESIGN</h5>
-                <p class="card-text text-white">An online wireframe making and designing web application.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card bg-dark text-white zoom" id="work7-show">
-            <img src="images/portfolio/work7.jpg" class="card-img" alt="work1">
-            <div class="card-img-overlay"id="work7-hide">
-              <div class="card-margin">
-                <h5 class="card-title text-white">BURNED C'S</h5>
-                <p class="card-text text-white">A well designed web store for a motor vehicle selling and trading company.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card bg-dark text-white zoom" id="work8-show">
-            <img src="images/portfolio/work8.jpg" class="card-img" alt="work1">
-            <div class="card-img-overlay" id="work8-hide">
-              <div class="card-margin">
-                <h5 class="card-title text-white">BAILEY WONGER</h5>
-                <p class="card-text text-white">A state of the art web application for a state of the art restaurant.</p>
-              </div>
-
-            </div>
-          </div>
-        </div>
+  </div>
+  <div class="portfolio">
+    <h2>PORTFOLIO</h2>
+    <div class="row" id="portfolio">
+      <div class="col-md-3" id="work1">
+        <img src="images/portfolio/work4.jpg" alt="work1" >
+        <p id="overlay"class="text">Black Studio</p>
+      </div>
+      <div class="col-md-3" id="work2">
+        <img src="images/portfolio/work3.jpg" alt="work2" id="work2">
+        <p id="overlay2" class="text">Ontario Security</p>
+      </div>
+      <div class="col-md-3" id="work3">
+        <img src="images/portfolio/work2.jpg" alt="work3">
+        <p id="overlay3"class="text">Pyramids</p>
+      </div>
+      <div class="col-md-3" id="work4">
+        <img src="images/portfolio/work1.jpg" alt="work4">
+        <p id="overlay4" class="text">Jim Carry</p>
       </div>
     </div>
-    <br>
-    <!-- END OF PORTFOLIO -->
-
-    <!-- CONTACT US -->
-    <div class="jumbotron contact-jumbotron">
-      <div class="contact-us contact wow bounceInUp">
-        <h2 class="text-align-normal text-white heading">CONTACT US</h2>
-        <br>
-        <div class="container">
-          <form id="my-form">
-            <div class="row">
-              <div class="col-lg-6">
-                <input type="text" class="form-control" id="name" placeholder="Name..." required>
-              </div>
-              <div class="col-lg-6">
-                <input type="email" class="form-control" id="email" placeholder="Email..." required>
-              </div>
-              <div class="col-lg-12">
-                <textarea class="form-control" id="message" placeholder="Your message here..." rows="12" required></textarea>
-              </div>
-              <div class="col-lg-12" id="button-hide">
-                <input type="submit" name="" value="Submit" class="btn btn-outline-light" data-toggle:"modal" data-target="#my-modal" id="hidden">
-              </div>
-            </div>
-          </form>
-
+    <div class="row" id="portfolio">
+        <div class="col-md-3" id="work5">
+          <img src="images/portfolio/work5.jpg" alt="work1">
+          <p id="overlay5" class="text">Have A Nice Day</p>
+        </div>
+        <div class="col-md-3" id="work6">
+          <img src="images/portfolio/work6.jpg" alt="work2">
+          <p id="overlay6"class="text">Calculator</p>
+        </div>
+        <div class="col-md-3" id="work7">
+          <img src="images/portfolio/work7.jpg" alt="work3">
+          <p id="overlay7" class="text">Burned</p>
+        </div>
+        <div class="col-md-3" id="work8">
+          <img src="images/portfolio/work8.jpg" alt="work4">
+          <p id="overlay8" class="text">Giraffe Restaurant</p>
         </div>
       </div>
-    </div>
-    <!-- END OF CONTACT US -->
+  </div> 
+  <div class="container-fluid contact">
+    <h2>CONTACT US</h2>
 
-    <!-- FOOTER -->
-    <div class="footer">
-      <div class="container">
-        <div class="row social_icons wow bounceInLeft">
-          <a href="https://twitter.com/collinsmuriuki_" target="_blank"><img src="images/social_icons/twitter.png" alt="twitter" class="social_icon"></a>
-          <a href="https://dribble.com" target="_blank"><img src="images/social_icons/dribble.png" alt="dribble" class="social_icon"></a>
-          <a href="https://facebook.com" target="_blank"><img src="images/social_icons/facebook.png" alt="facebook" class="social_icon"></a>
-          <a href="http://x.com" target="_blank"><img src="images/social_icons/g_plus.png" alt="g_plus" class="social_icon"></a>
-          <a href="https://skype.com" target="_blank"><img src="images/social_icons/skype.png" alt="skype" class="social_icon"></a>
-          <a href="https://mix.com" target="_blank"><img src="images/social_icons/stumble_upon.png" alt="stumble_upon" class="social_icon"></a>
-          <a href="https://behance.net" target="_blank"><img src="images/social_icons/behance.png" alt="behance" class="social_icon"></a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="images/social_icons/you_tube.png" alt="you_tube" class="social_icon"></a>
-          <a href="https://pinterest.com" target="_blank"><img src="images/social_icons/pinterest.png" alt="pinterest" class="social_icon"></a>
-          <a href="https://flickr.com" target="_blank"><img src="images/social_icons/flickr.png" alt="flickr" class="social_icon"></a>
-        </div>
-        <div class="footer-text wow bounceInLeft">
-          <p class="text-align-normal">DELANI STUDIO</p>
-          <p class="text-align-normal"><span id="sth">©</span>2019</p>
-        </div>
+    <form id="form34A" action="https:/gmail.us3.list-manage.com/subscribe/post" method="POST">
+      <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
+      <input type="hidden" name="id" value="dbf7e27685">
+      <div class="form-group form-inline">
+        <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
+        <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
       </div>
-    </div>
-    <!-- END OF FOOTER -->
-
-    <!-- LINKING ANIMATION JS FILES -->
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
-  </body>
+      <div class="form-group">
+        <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+    </form>
+  </div>
+  <footer>
+    <img src="images/twitter.png" alt="twitter">
+    <img src="images/dribble.png" alt="dribble">
+    <img src="images/facebook.png" alt="facebook">
+    <img src="images/g_plus.png" alt="g_plus">
+    <img src="images/skype.png" alt="skype">
+    <img src="images/stumble_upon.png" alt="stumble_upon">
+    <img src="images/behance.png" alt="behance">
+    <img src="images/pinterest.png" alt="pinterest">
+    <img src="images/flickr.png" alt="flickr">
+   <img src="images/you_tube.png" alt="youtube"> 
+    <p>DELANI STUDIO</p>
+    <p>2019</p>
+  </footer>
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>
