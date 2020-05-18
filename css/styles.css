@@ -150,19 +150,8 @@ footer p{
   font-size: 20px;
   font-weight: 600;
 }
-#overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-  display: none;
-  color: black;
-  width: 100%;
-  height: 100%;
-  background-color:rgba(255, 255, 255, 0.456);
-  position:absolute;
-  top: 20px;
-  left: 35px;
-  font-weight: bold;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 50%;
+
+50%;
   font-family: 'Delius Swash Caps', cursive;
 }
 @media only screen and (max-width: 755px){
@@ -244,15 +233,36 @@ footer p{
     margin-right: 10%; 
   }
 }
-@media only screen and (min-width: 625px){
-  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-    width: 100%;
-    height: 100%;
-    top: 20px;
-    left: 20px;
-    padding-top:20%; 
-    font-size: 26px;
-  }
+
+
+#work1-hide{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #362721;
+}
+
+#work2-hide {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#362721;
+}
+
+#work3-hide {
+  display: none;###########
+}
+
+.card-title .card-text{
+  font-weight:400;
+}
+
+.card-margin{
+  padding:1rem;
+  border:solid #FFFFFF 2px;
+  align-items: center;
+}
+
+
+
   .col-md-3 img{
     width: 400px;
     margin: 20px;
