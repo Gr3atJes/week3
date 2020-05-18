@@ -86,7 +86,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("form#form34A").submit(function(event){
     // event.preventDefault();
-    var name = $("input#MERGE1").val();
+    var name = $("#mc-field-group").val();
     var email = $("input#MERGE0").val();
     var message = $("textarea#comment").val();
     if ($("input#MERGE1").val() && $("input#MERGE0").val()){
