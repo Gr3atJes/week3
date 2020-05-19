@@ -7,7 +7,19 @@
   margin:auto;
   margin-top: 100px;
 }
-
+.column {
+  float:left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row{
+  margin:0 -5px;
+}
+.row:after {
+  content: "";
+  display:table;
+  clear:both;
+}
 #mc_embed_signup{
   background:#fff; 
   clear:left; 
