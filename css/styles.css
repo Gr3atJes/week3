@@ -1,11 +1,13 @@
+.card-margin{
+  padding: 1em;
+  border: solid #FFFFFF 2px;
+  align-items: center;
+}
 .wrap{
   margin:auto;
   margin-top: 100px;
 }
-.card{
-  box-shadow:0 4px 8px 0 (0,0,0,0.6);
-  
-}
+
 #mc_embed_signup{
   background:#fff; 
   clear:left; 
@@ -105,11 +107,7 @@
   padding-bottom: 20px;
   font-family: 'Gabriela', serif;
 }
-input[type=text],input[type=email],#comment{
-  background: transparent;
-  font-size: 20px;
-  font-family: 'Copse', serif;
-}
+
 
 
 #product, #development, #design{
@@ -129,31 +127,37 @@ input[type=text],input[type=email],#comment{
   display: none;
   background-color: rgba(0, 0, 0, 0.5);
   color: #362721;
+  align-items: center;
 }
 
 #work2-hide {
   display: none;
   background-color: rgba(0, 0, 0, 0.5);
   color:#362721;
+  align-items: center;
 }
 
 #work3-hide {
-  display: none;###########
+  display: none;
+  margin:40px;
 }
 
 .card-title .card-text{
   font-weight:400;
 }
 
-.card-margin{
-  padding:1rem;
-  border:solid #FFFFFF 2px;
-  align-items: center;
-}
 #work2-show{
   margin-left: auto;
 }
 #work3-show{
-  margin-
+  align-items: center;
+}
+.footer {
+  height:auto;
+}
+.social_icons {
+  display: flex;
+  justify-content: center;
+  position: static;
 }
 
