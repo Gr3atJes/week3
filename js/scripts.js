@@ -81,7 +81,6 @@ $(document).ready(function(){
 
   $("#sth").click(function(){
     $("body").fadeOut(8000);
-    alert("thanos effect");
   });
 
 });
